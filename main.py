@@ -35,7 +35,7 @@ header.grid(row=0, column=0, pady=3)
 header.config(background='#09509e', foreground="#e7e6e6",
               width=1920, font=('Constantia', 24, 'bold'))
 
-caption = ttk.Label(body_frame, text="", font="Calibri 25 bold")
+caption = ttk.Label(body_frame, text="Click the button to Continue", font="Calibri 25 bold")
 caption.grid(row=1, column=0, columnspan=3, pady=10)
 
 confidence = ttk.Label(body_frame, text="", font="Calibri 25 bold")
